@@ -1,0 +1,13 @@
+<p>Hello</p>
+
+<form
+  action=""
+  method="POST"
+  style="background-color: bisque; padding: 10px; border: 1px solid black"
+>
+  {% csrf_token %} {{form.as_div}}
+  <input
+    type="submit"
+    value="Submit"
+  />
+</form>
