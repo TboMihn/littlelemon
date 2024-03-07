@@ -14,6 +14,7 @@ def form_view(request):
     context = {"form": form}
     return render(request, "home.html", context)
 
+
 # Main Views
 def home(request):
     return HttpResponse("<h1>Welcome to LittleLemon</h1>")

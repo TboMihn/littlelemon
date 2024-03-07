@@ -8,3 +8,4 @@ from .models import MenuCategory, Logger
 admin.site.register(Menu)
 admin.site.register(MenuCategory)
 admin.site.register(Logger)
+
