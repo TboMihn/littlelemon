@@ -23,7 +23,8 @@ def menu(request):
     return HttpResponse("Menu")
 
 def about(request):
-    return HttpResponse("About Us")
+    about_content = {"about": "Based in Seattle, WA, Little Lemon is a trendy restaurant for all ages."}
+    return render(request, "about.html", about_content)
 
 def book(request):
     return HttpResponse("Book Your Reservations Today")
