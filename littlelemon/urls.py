@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('myapp.urls')),
 ]
 
+
 handler404 = 'littlelemon.views.handler404'
